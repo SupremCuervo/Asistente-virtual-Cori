@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+	<title id="title">Logo Cori</title>
+	<desc id="desc">Logo minimalista de Cori con una C y ondas de voz en color morado</desc>
+	<defs>
+		<linearGradient id="gradC" x1="0%" y1="0%" x2="100%" y2="100%">
+			<stop offset="0%" stop-color="#8b5cf6" />
+			<stop offset="100%" stop-color="#6d28d9" />
+		</linearGradient>
+		<linearGradient id="gradWave" x1="0%" y1="0%" x2="100%" y2="0%">
+			<stop offset="0%" stop-color="#a78bfa" />
+			<stop offset="100%" stop-color="#7c3aed" />
+		</linearGradient>
+	</defs>
+	<rect x="24" y="24" width="464" height="464" rx="104" fill="#0f0f16" />
+	<circle cx="256" cy="220" r="122" fill="none" stroke="url(#gradC)" stroke-width="34" />
+	<circle cx="286" cy="220" r="92" fill="#0f0f16" />
+	<rect x="300" y="150" width="74" height="140" fill="#0f0f16" />
+	<path d="M314 168c26 0 47 21 47 47s-21 47-47 47" fill="none" stroke="url(#gradWave)" stroke-width="12" stroke-linecap="round" />
+	<path d="M328 146c39 0 70 31 70 70s-31 70-70 70" fill="none" stroke="#c4b5fd" stroke-width="10" stroke-linecap="round" opacity="0.9" />
+	<text x="256" y="388" text-anchor="middle" fill="#ede9fe" font-family="Segoe UI, Arial, sans-serif" font-size="64" font-weight="700">Cori</text>
+</svg>

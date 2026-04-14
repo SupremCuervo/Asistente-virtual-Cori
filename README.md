@@ -2,6 +2,10 @@
 
 Asistente por **voz** para **Windows** con interfaz en PyQt6: reconoce órdenes en español, muestra un overlay cuando escucha y ejecuta acciones (abrir apps y URLs, volumen, atajos de teclado, mensajes de voz, etc.).
 
+## Logo
+
+![Logo de Cori](logo_cori.svg)
+
 ## Requisitos
 
 - **Windows** (el control del volumen y muchos atajos están pensados para este sistema).
@@ -64,6 +68,32 @@ python cori_app.py
 3. Para parar: di **para de escuchar** o usa **Detener escucha**.
 
 La pestaña **Presentación** resume comandos y ejemplos.
+
+## ¿Qué puede hacer Cori hasta el momento?
+
+- Iniciar y detener la escucha por voz con activación por palabra clave (**Cori**).
+- Abrir aplicaciones de Windows por nombre (por ejemplo: `notepad`, `msedge`, `cursor`, `spotify`).
+- Abrir sitios web configurados en `config.json` (por ejemplo: YouTube, Netflix, Twitch).
+- Controlar volumen del sistema: subir, bajar, silenciar y fijar porcentaje (por ejemplo, "volumen a 50").
+- Ejecutar atajos de teclado de Windows:
+	- copiar (`Ctrl + C`)
+	- pegar (`Ctrl + V`)
+	- deshacer (`Ctrl + Z`)
+	- rehacer (`Ctrl + Y`)
+	- mostrar escritorio (`Win + D`)
+	- explorador de archivos (`Win + E`)
+	- bloqueo de pantalla (`Win + L`)
+	- recorte de pantalla (`Win + Shift + S`)
+	- cambiar ventana (`Alt + Tab`)
+- Control rápido de YouTube con tecla `K` (play/pausa) si el navegador tiene foco.
+- Cerrar navegador por proceso (`msedge.exe`, `chrome.exe`, configurable).
+- Activar "modo programador" para abrir un grupo de herramientas definidas en configuración.
+- Responder con mensajes personalizables y opcionalmente hablados (TTS con `pyttsx3`).
+- Decir hora y fecha en voz con plantillas configurables.
+- Editar personalización desde interfaz gráfica (mensajes, frases, apps, URLs, plantillas).
+- Funcionar con dos motores de reconocimiento:
+	- **Google Speech Recognition** (requiere Internet).
+	- **Vosk** (reconocimiento local sin Internet para transcripción).
 
 ## Demos opcionales
 
