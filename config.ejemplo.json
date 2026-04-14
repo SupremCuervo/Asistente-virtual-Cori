@@ -1,0 +1,64 @@
+{
+	"motor_reconocimiento": "google",
+	"ruta_modelo_vosk": "models/vosk-model-small-es-0.42",
+	"idioma_reconocimiento": "es-ES",
+	"url_musica": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+	"urls": {
+		"youtube": "https://www.youtube.com/",
+		"video": "https://www.youtube.com/",
+		"netflix": "https://www.netflix.com/",
+		"twitch": "https://www.twitch.tv/"
+	},
+	"modo_programador": [
+		"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Common7\\IDE\\devenv.exe",
+		"cursor",
+		"msedge"
+	],
+	"navegador_procesos_cerrar": [
+		"msedge.exe",
+		"chrome.exe"
+	],
+	"aplicaciones": {
+		"bloc de notas": "notepad",
+		"notas": "notepad",
+		"calculadora": "calc",
+		"explorador": "explorer",
+		"archivos": "explorer",
+		"los archivos": "explorer",
+		"mis archivos": "explorer",
+		"chrome": "chrome",
+		"google chrome": "chrome",
+		"navegador": "msedge",
+		"internet": "msedge",
+		"edge": "msedge",
+		"microsoft edge": "msedge",
+		"firefox": "firefox",
+		"spotify": "spotify",
+		"visual studio": "devenv",
+		"studio": "devenv",
+		"visual": "devenv",
+		"cursor": "cursor",
+		"curso": "cursor",
+		"discord": "discord",
+		"teams": "ms-teams",
+		"whatsapp": "whatsapp"
+	},
+	"frases_teclas": {
+		"copia": ["copia eso ya"],
+		"hora": ["momento actual"]
+	},
+	"plantilla_hora_voz": "Son las {hora} horas y {minutos} minutos en {nombre_pc}",
+	"plantilla_fecha_voz": "En {nombre_pc}: {fecha_larga}",
+	"mensajes_voz": [
+		{
+			"frases": ["hola cori", "buenas cori", "buenos días cori"],
+			"texto": "Hola. Te hablo desde el equipo {nombre_pc}.",
+			"voz": true
+		},
+		{
+			"frases": ["hola"],
+			"texto": "Hola otra vez en {nombre_pc}.",
+			"voz": true
+		}
+	]
+}
